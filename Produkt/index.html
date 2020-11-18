@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
 
-     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
 
-
+      <!--ccs link-->
+      <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+      <link rel="icon" href="https://icon-library.com/images/circle-xxl_103852.png"/>
    </head>
+
    <body>
+      <div>
+      </div>
+      <!--flexbox, måste göra div på varje kåd annars förstörs sidan, detta kåden håller flexboxarna inom en container
+      och flip classerna och titlarna och informations texten, även har jag laggt länk på bilderna-->
+      <div class="container">
+         <div>
+            <div class="flip-box">
+               <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                     <h2>Learn 2 fly</h2>
+                     <p>Learn 2 fly is the 2nd game in the learn to fly franchies, it is also the best rated of all</p>
+                  </div>
+                  <div class="flip-box-back">
+                     <a href="https://www.spela.se/spel_/learn-to-fly-2" >
+                     <img src="https://giantbomb1.cbsistatic.com/uploads/scale_small/31/316204/2848923-image.jpeg" alt="left" style="width:300px;height:200px">
+                  </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div>
+            <div class="flip-box">
+               <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                     <h2>S&S</h2>
+                     <p>This game is classic! this game never ends, there is alot of ways to play it </p>
+                  </div>
+                  <div class="flip-box-back">
+                     <a href="https://www.spela.se/spel_/swords-and-sandals-2-emperors-reign">
+                     <img src="https://img-hws.y8.com/cloud/y8-thumbs/19850/small.gif" alt="mid" >
+                  </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div>
+            <div class="flip-box">
+               <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                     <h2>FB&WG</h2>
+                     <p>Best game to play with a friend! the franchise is really addicting</p>
+                  </div>
+                  <div class="flip-box-back">
+                     <img src="https://lh3.googleusercontent.com/proxy/Md64kR0kLMRb0G_3PwhEYuGn9IDMvIj98RIHv39cL0JoRRmCe6XYJ276h5SPdO9l-IZWIAB9U4ngy6WfJGMBK1hgvT2sD_89RUoLPOCttzgHVuPuomzB5fe4kFGvXk-AM7YUWcU" alt="right" style="width:300px;height:200px">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
      
-   
-
-
-     <div class="container">
-        
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-   
-   </div>
-
-   <div>
-   <ul class="navbar">
-      <a href="index.html" class="a-navbar">Home</a>
-      <input type="text" placeholder="Search..">
+      <!--Navbar & searchbar inom anchers så att man kan klicka in i de-->
+      <div>
+         <ul class="navbar">
+            <a href="index.html" class="a-navbar">Home</a>
+            <a href="om_oss.html" class="a-navbar">About us</a>
+            <a href="kontakta_oss.html" class="a-navbar">Contact us</a>
+            <a href="" class="a-navbar"></a>
+            <div>
+                  <input type="text" placeholder="Search..">
+            </div>
+         </ul>
+      </div>
       
-   </ul>
+   <!--titlen-->
+      <div class="h2">
+      <h2> Our top 3 picks</h2>
    </div>
-
-   <div> 
-   <footer>bruh</footer>
-
-
-   </div>
+      <!--Footer-->
+      <div>
+         <footer>© 2020 Keyman, inc.</footer>
+      </div>
 
    </body>
+   
 </html>
